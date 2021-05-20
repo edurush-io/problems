@@ -48,7 +48,7 @@ def rotate_arr_90(arr, s = "clockwise"):
 	cnt = 0
 	while cnt < max_h:
 		i = cnt
-		while i < max_h: 
+		while i < max_h: # variables a,b,c,d used to illustrate the rotation, if we were to optimize we can use just one variable 
 			a = arr[cnt][i]
 			b = arr[i][max_h-cnt]
 			c = arr[max_h-cnt][max_h-i]
